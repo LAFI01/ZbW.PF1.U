@@ -28,85 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            LblValue1=new Label();
-            LblValue2=new Label();
-            TxtValue1=new TextBox();
-            TxtValue2=new TextBox();
-            LblResult=new Label();
-            CmdCheck=new Button();
+            LblValue1 = new Label();
+            LblValue2 = new Label();
+            TxtValue1 = new TextBox();
+            TxtValue2 = new TextBox();
+            LblResult = new Label();
+            CmdCheck = new Button();
             SuspendLayout();
             // 
             // LblValue1
             // 
-            LblValue1.AutoSize=true;
-            LblValue1.Location=new Point(15, 15);
-            LblValue1.Margin=new Padding(4, 0, 4, 0);
-            LblValue1.Name="LblValue1";
-            LblValue1.Size=new Size(44, 15);
-            LblValue1.TabIndex=0;
-            LblValue1.Text="Zahl A:";
+            LblValue1.AutoSize = true;
+            LblValue1.Location = new Point(17, 20);
+            LblValue1.Margin = new Padding(5, 0, 5, 0);
+            LblValue1.Name = "LblValue1";
+            LblValue1.Size = new Size(55, 20);
+            LblValue1.TabIndex = 0;
+            LblValue1.Text = "Zahl A:";
             // 
             // LblValue2
             // 
-            LblValue2.AutoSize=true;
-            LblValue2.Location=new Point(15, 45);
-            LblValue2.Margin=new Padding(4, 0, 4, 0);
-            LblValue2.Name="LblValue2";
-            LblValue2.Size=new Size(43, 15);
-            LblValue2.TabIndex=1;
-            LblValue2.Text="Zahl B:";
+            LblValue2.AutoSize = true;
+            LblValue2.Location = new Point(17, 60);
+            LblValue2.Margin = new Padding(5, 0, 5, 0);
+            LblValue2.Name = "LblValue2";
+            LblValue2.Size = new Size(54, 20);
+            LblValue2.TabIndex = 1;
+            LblValue2.Text = "Zahl B:";
             // 
             // TxtValue1
             // 
-            TxtValue1.Location=new Point(74, 15);
-            TxtValue1.Margin=new Padding(4, 3, 4, 3);
-            TxtValue1.Name="TxtValue1";
-            TxtValue1.Size=new Size(188, 23);
-            TxtValue1.TabIndex=2;
+            TxtValue1.Location = new Point(85, 20);
+            TxtValue1.Margin = new Padding(5, 4, 5, 4);
+            TxtValue1.Name = "TxtValue1";
+            TxtValue1.Size = new Size(214, 27);
+            TxtValue1.TabIndex = 2;
             // 
             // TxtValue2
             // 
-            TxtValue2.Location=new Point(74, 46);
-            TxtValue2.Margin=new Padding(4, 3, 4, 3);
-            TxtValue2.Name="TxtValue2";
-            TxtValue2.Size=new Size(188, 23);
-            TxtValue2.TabIndex=3;
+            TxtValue2.Location = new Point(85, 61);
+            TxtValue2.Margin = new Padding(5, 4, 5, 4);
+            TxtValue2.Name = "TxtValue2";
+            TxtValue2.Size = new Size(214, 27);
+            TxtValue2.TabIndex = 3;
             // 
             // LblResult
             // 
-            LblResult.AutoSize=true;
-            LblResult.Location=new Point(70, 133);
-            LblResult.Margin=new Padding(4, 0, 4, 0);
-            LblResult.Name="LblResult";
-            LblResult.Size=new Size(16, 15);
-            LblResult.TabIndex=4;
-            LblResult.Text="...";
+            LblResult.AutoSize = true;
+            LblResult.Location = new Point(80, 177);
+            LblResult.Margin = new Padding(5, 0, 5, 0);
+            LblResult.Name = "LblResult";
+            LblResult.Size = new Size(18, 20);
+            LblResult.TabIndex = 4;
+            LblResult.Text = "...";
             // 
             // CmdCheck
             // 
-            CmdCheck.Location=new Point(74, 77);
-            CmdCheck.Margin=new Padding(4, 3, 4, 3);
-            CmdCheck.Name="CmdCheck";
-            CmdCheck.Size=new Size(189, 27);
-            CmdCheck.TabIndex=5;
-            CmdCheck.Text="Bestimme grössere Zahl:";
-            CmdCheck.UseVisualStyleBackColor=true;
-            CmdCheck.Click+=CmdCheck_Click;
+            CmdCheck.Location = new Point(85, 103);
+            CmdCheck.Margin = new Padding(5, 4, 5, 4);
+            CmdCheck.Name = "CmdCheck";
+            CmdCheck.Size = new Size(216, 36);
+            CmdCheck.TabIndex = 5;
+            CmdCheck.Text = "Bestimme grössere Zahl:";
+            CmdCheck.UseVisualStyleBackColor = true;
+            CmdCheck.Click += CmdCheck_Click;
             // 
             // A4_1_4
             // 
-            AutoScaleDimensions=new SizeF(7F, 15F);
-            AutoScaleMode=AutoScaleMode.Font;
-            ClientSize=new Size(331, 301);
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(378, 401);
             Controls.Add(CmdCheck);
             Controls.Add(LblResult);
             Controls.Add(TxtValue2);
             Controls.Add(TxtValue1);
             Controls.Add(LblValue2);
             Controls.Add(LblValue1);
-            Margin=new Padding(4, 3, 4, 3);
-            Name="A4_1_4";
-            Text="Aufgabe_A4-1-4";
+            Margin = new Padding(5, 4, 5, 4);
+            Name = "A4_1_4";
+            Text = "Aufgabe_A4-1-4";
             ResumeLayout(false);
             PerformLayout();
         }
