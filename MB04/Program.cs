@@ -1,4 +1,5 @@
 using MB04.HandtaschenBeispiel;
+using MB04.Hund;
 using MB04.ReferenzBeispiel;
 
 namespace MB04
@@ -14,9 +15,10 @@ namespace MB04
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            
-            Application.Run(new ReferenceExampleView());
-            //Application.Run(new Handtaschenverwaltung());
+
+            //Application.Run(new ReferenceExampleView());
+            Application.Run(new Handtaschenverwaltung());
+            //Application.Run(new DogView());
 
         }
     }

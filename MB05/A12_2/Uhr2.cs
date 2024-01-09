@@ -8,8 +8,9 @@ namespace MB05.A12_2
     {
         private readonly Clock clock;
 
-        public Uhr2(Clock clock)
+        public Uhr2()
         {
+            clock = new Clock();
             if (clock != null)
             {
                 InitializeComponent();

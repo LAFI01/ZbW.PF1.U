@@ -1,4 +1,5 @@
-﻿using MB05.HandtaschenBeispiel.Loesung;
+﻿using MB04.HandtaschenBeispiel;
+using MB05.HandtaschenBeispiel.Loesung;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +21,11 @@ namespace MB05.HandtaschenBeispiel
 
 
         private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            new HandtascheController(TxtName.Text,NuDPrice.Text);
+        }
+
+        private void Handtaschenverwaltung_Load(object sender, EventArgs e)
         {
 
         }
