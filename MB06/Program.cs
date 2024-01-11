@@ -18,9 +18,9 @@ namespace MB06
             ApplicationConfiguration.Initialize();
 
             //Application.Run(new MathView());
-            Application.Run(new Haustierverwaltung1());
-           //Application.Run(new Haustierverwaltung2());
-           //Application.Run(new CreatePerson());
+            //Application.Run(new Haustierverwaltung1());
+            Application.Run(new Haustierverwaltung2());
+            //Application.Run(new CreatePerson());
         }
     }
 }

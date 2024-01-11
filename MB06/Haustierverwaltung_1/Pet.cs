@@ -10,23 +10,14 @@ namespace MB06.Haustierverwaltung_1
     {
 
         public Pet() { }
-        public Pet(string name,int age, bool cat, bool dog) 
+        public Pet(string name, int age)
         {
             Name = name;
             Age = age;
-            if (dog)
-            {
-                Animal = "dog";
-            }
-            if (cat)
-            {
-                Animal = "cat";
-            }
             Count++;
         }
         public string Name { get; set; }
         public int Age { get; set; }
-        public string Animal { get;set;}
         public static int Count { get; set; }
     }
 }

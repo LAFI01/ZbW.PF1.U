@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace MB06.Haustierverwaltung_1
 {
-    internal class Cat
+    internal class Cat : Pet
     {
         public Cat() { }
-        public Cat(string name, int age) 
+        public Cat(string name, int age) : base (name,age)
         {
             Name= name;
             Age = age;
         }
-        private string Name { get; set; }
-        private int Age { get; set; }
     }
 }

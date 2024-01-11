@@ -14,10 +14,17 @@ namespace MB06.Haustierverwaltung_1
         {
             string name = TxtName.Text;
             int age = Convert.ToInt16(NumAge.Value);
-            bool cat = RadCat.Checked;
-            bool dog = RadDog.Checked;
+            bool isCat = RadCat.Checked;
+            bool isDog = RadDog.Checked;
 
-            Pet pet = new Pet(name, age, cat, dog);
+            if (isCat)
+            {
+                Cat cat = new Cat(name,age);
+            }
+            else if (isDog)
+            {
+                Dog dog = new Dog(name,age);
+            }
 
             LblNumberOfPets.Text = Convert.ToString(Pet.Count);
         }
