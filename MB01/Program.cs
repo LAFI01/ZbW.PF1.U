@@ -1,4 +1,5 @@
 using MB01.A8_2;
+using MB01.InvertWord;
 
 namespace MB01
 {
@@ -16,7 +17,8 @@ namespace MB01
 
             //Application.Run(new A4_1_4());
 
-            Application.Run(new A8_2_1());
+            //Application.Run(new A8_2_1());
+            Application.Run(new InvertWord.InvertWord());
 
         }
     }
