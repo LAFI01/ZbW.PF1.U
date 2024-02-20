@@ -8,9 +8,7 @@ namespace MB09.SinglyLinkedListExample
 {
     public class Node
     {
-      
-
-
-
+        public object Data { get; set; }
+        public Node Link { get; set; }
     }
 }
