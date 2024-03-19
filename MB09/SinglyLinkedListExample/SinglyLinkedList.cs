@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Diagnostics.Metrics;
 
 namespace MB09.SinglyLinkedListExample
 {
@@ -42,14 +43,17 @@ namespace MB09.SinglyLinkedListExample
             node.Data = start.Data;
             node.Link = start.Link;
 
-            do
+            while (node != null)
             {
-                if (node.Data == data)
+                if (node.Data.Equals(data))
                 {
                     return node;
                 }
-                node = node.Link;
-            } while (node.Link != null);
+                if(node.Link != null)
+                {
+                    node = node.Link;
+                }
+            }
             return null;
         }
         public bool Remove(Object item)
@@ -60,34 +64,33 @@ namespace MB09.SinglyLinkedListExample
             {
                 return false;
             }
-            else if(nodeToRemove == start)
+            else if(nodeToRemove.Equals(start))
             {
                 start = nodeToRemove.Link;
+                Count--;
                 return true;
             }
-            Node node = new Node();
+
             Node previousNode = FindPreviousNode(nodeToRemove);
-            previousNode.Link = nodeToRemove.Link;
+            if (previousNode != null)
+            {
+                previousNode.Link = nodeToRemove.Link;
+            }
 
-
-
-            //if(previousNode == start)
-            //{
-            //    start.Link = nodeToRemove.Link;
-            //}
             if (nodeToRemove == end)
             {
                 end = previousNode;
             }
+            Count--;
             return true;
         }
-        public Node FindPreviousNode(Object item)
+        public Node FindPreviousNode(Node item)
         {
             Node node = start;
 
             while (node.Link != null)
             {
-                if(node.Link == item)
+                if(node.Link == item.Link)
                 {
                     return node;
                 }

@@ -18,7 +18,7 @@ var c = singlyLinkedList.Contains(6);
 Console.WriteLine($"does list contain string? {c}");
 
 //Aufgabe 3
-var remove = 3;
+var remove = 1;
 singlyLinkedList.Remove(remove);
 Console.WriteLine($"object with data {remove} was removed");
 
