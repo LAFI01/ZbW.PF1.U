@@ -14,7 +14,9 @@ namespace MB03
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             
-            Application.Run(new A8_2_1());
+            //Application.Run(new A8_2_1());
+            Application.Run(new MyStopwatch());
+
 
         }
     }
