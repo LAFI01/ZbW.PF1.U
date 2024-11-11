@@ -1,4 +1,5 @@
 using MB03.A8_2;
+using MB03.Schleifen;
 
 namespace MB03
 {
@@ -14,7 +15,7 @@ namespace MB03
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             
-            Application.Run(new A8_2_1());
+            Application.Run(new SchleifenDemo());
 
         }
     }
