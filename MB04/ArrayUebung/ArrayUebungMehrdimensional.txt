@@ -19,7 +19,7 @@
             {
                 for (int x = 0; x < weekActivities.GetUpperBound(1); x++)
                 {
-                    LblShow.Text += $"{weekActivities[y, x]}: {weekActivities[y, x]}\r\n";
+                    LblShow.Text += $"{weekActivities[y, x]}: {weekActivities[1, x]}\r\n";
                 }
             }
         }
