@@ -13,7 +13,9 @@ namespace MB06
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new AdressverwaltungView());
+            Application.Run(new Garage());
+           // Application.Run(new AdressverwaltungView());
+
         }
     }
 }
