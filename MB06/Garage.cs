@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyColor = MB06.Color;
+using SystemColor = System.Drawing.Color;
 
 namespace MB06
 {
@@ -24,8 +26,8 @@ namespace MB06
 
             if (TxtColor.Text.Equals("Blau"))
             {
-                b3.Color = Color.Blue;
-                P
+                b3.Color = MyColor.Blue;
+                CmdCreate.BackColor = SystemColor.Red;
             }
             LblShow.Text=  b3.Print();
 
