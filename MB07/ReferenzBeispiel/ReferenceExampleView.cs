@@ -10,7 +10,7 @@
 
         private void ClickOnBtnCheck(object sender, EventArgs e)
         {
-            var personA = new Person(TxtPersonA.Text);
+            Person personA = new Person(TxtPersonA.Text);
             var personB = new Person(TxtPersonB.Text);
 
          
@@ -18,6 +18,9 @@
 
             var isEqual = personA.Equals(personB);
             LblResponseEquals.Text = isEqual.ToString();
+
+            Button button = (Button)sender;
+            button.BackColor = Color.Red;
         }
  
     }
