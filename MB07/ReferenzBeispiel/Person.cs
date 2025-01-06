@@ -14,6 +14,7 @@ namespace MB07.ReferenzBeispiel
         }
 
         public string Name { get; set; }
+        public string Firstname { get; set; }
 
         public bool CompareWithEvenSign(Person b)
         {
@@ -27,7 +28,7 @@ namespace MB07.ReferenzBeispiel
             {
                 return false;
             }
-            if (Name == other.Name)
+            if (Name == other.Name && Firstname == other.Firstname)
             {
                 return true;
             }

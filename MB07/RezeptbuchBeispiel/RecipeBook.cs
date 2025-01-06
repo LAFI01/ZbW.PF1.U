@@ -26,6 +26,9 @@ namespace MB07.RezeptbuchBeispiel
             r.Instruction = TxtInstruction.Text;
             r.Duration = Convert.ToInt32(NudDuration.Value);
             LstRecipes.Items.Add(r);
+
+            Button addButton = (Button)sender;
+            addButton.BackColor = Color.Red;
         }
 
         private void CmdRecipeDelete_Click(object sender, EventArgs e)

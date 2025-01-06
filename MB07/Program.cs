@@ -1,6 +1,7 @@
 using MB07.HandtaschenBeispiel;
 using MB07.TiermarktBeispiel;
 using MB07.ReferenzBeispiel;
+using MB07.RezeptbuchBeispiel;
 
 namespace MB07
 {
@@ -16,7 +17,8 @@ namespace MB07
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new Tiermarkt());
+            // Application.Run(new Tiermarkt());
+            Application.Run(new RecipeBook());
 
             // Application.Run(new ReferenceExampleView());
             //Application.Run(new Handtaschenverwaltung());
