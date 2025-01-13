@@ -1,7 +1,9 @@
 namespace MB09
 {
+    using MB09.Einstieg;
     using MB09.Haustierverwaltung_1;
     using MB09.MathBeispiel;
+    using MB09.VererbungBeispiel;
 
     internal static class Program
     {
@@ -15,9 +17,12 @@ namespace MB09
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new CalculatorForm());
+            //Application.Run(new CalculatorForm());
+            //Application.Run(new StaticExample());
+            Application.Run(new Mediathek());
+
             //Application.Run(new Haustierverwaltung1());
-           //Application.Run(new Haustierverwaltung2());
+            //Application.Run(new Haustierverwaltung2());
         }
     }
 }
