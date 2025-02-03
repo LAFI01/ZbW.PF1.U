@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace MB08.A12_1
+﻿namespace MB08.A12_1
 {
     public partial class Uhr1 : Form
     {
@@ -22,6 +19,9 @@ namespace MB08.A12_1
             minute = (minute + 1) % limitMinute;
             if (minute == 0)
                 hour = hour == limitHour - 1 ? 0 : hour + 1;
+            
+            hour =+3;
+
 
             TxtHour.Text = ConvertValue(hour);
             TxtMinute.Text = ConvertValue(minute);

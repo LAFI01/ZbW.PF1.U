@@ -18,17 +18,17 @@ namespace MB08
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
            
-            // Application.Run(new Uhr1());
+             Application.Run(new Uhr1());
             //Application.Run(new Uhr2());
             //Application.Run(new Handtaschenverwaltung());
 
-         //   /* Für MvcDemo 
+           /* Für MvcDemo 
             var model = new TextModel();
             var main = new MvcDemoMain(model);
             CreateSatelliteForms(main, model);
 
             Application.Run(main);
-          //  */
+            */
         }
 
         private static void CreateSatelliteForms(MvcDemoMain main, TextModel model)

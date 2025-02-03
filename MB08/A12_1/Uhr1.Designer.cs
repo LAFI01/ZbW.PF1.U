@@ -28,116 +28,115 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.TxtHour = new System.Windows.Forms.TextBox();
-            this.TxtMinute = new System.Windows.Forms.TextBox();
-            this.LblHour = new System.Windows.Forms.Label();
-            this.LblMinute = new System.Windows.Forms.Label();
-            this.CmdTick = new System.Windows.Forms.Button();
-            this.CmdStartTimer = new System.Windows.Forms.Button();
-            this.TmrTick = new System.Windows.Forms.Timer(this.components);
-            this.LblSeparator = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            TxtHour = new TextBox();
+            TxtMinute = new TextBox();
+            LblHour = new Label();
+            LblMinute = new Label();
+            CmdTick = new Button();
+            CmdStartTimer = new Button();
+            TmrTick = new System.Windows.Forms.Timer(components);
+            LblSeparator = new Label();
+            SuspendLayout();
             // 
             // TxtHour
             // 
-            this.TxtHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHour.Location = new System.Drawing.Point(56, 190);
-            this.TxtHour.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.TxtHour.Name = "TxtHour";
-            this.TxtHour.Size = new System.Drawing.Size(366, 62);
-            this.TxtHour.TabIndex = 0;
+            TxtHour.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            TxtHour.Location = new Point(47, 190);
+            TxtHour.Margin = new Padding(5, 6, 5, 6);
+            TxtHour.Name = "TxtHour";
+            TxtHour.Size = new Size(306, 48);
+            TxtHour.TabIndex = 0;
             // 
             // TxtMinute
             // 
-            this.TxtMinute.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtMinute.Location = new System.Drawing.Point(558, 190);
-            this.TxtMinute.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.TxtMinute.Name = "TxtMinute";
-            this.TxtMinute.Size = new System.Drawing.Size(366, 62);
-            this.TxtMinute.TabIndex = 1;
+            TxtMinute.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            TxtMinute.Location = new Point(465, 190);
+            TxtMinute.Margin = new Padding(5, 6, 5, 6);
+            TxtMinute.Name = "TxtMinute";
+            TxtMinute.Size = new Size(306, 48);
+            TxtMinute.TabIndex = 1;
             // 
             // LblHour
             // 
-            this.LblHour.AutoSize = true;
-            this.LblHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblHour.Location = new System.Drawing.Point(46, 79);
-            this.LblHour.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.LblHour.Name = "LblHour";
-            this.LblHour.Size = new System.Drawing.Size(204, 55);
-            this.LblHour.TabIndex = 2;
-            this.LblHour.Text = "Stunden";
+            LblHour.AutoSize = true;
+            LblHour.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            LblHour.Location = new Point(38, 79);
+            LblHour.Margin = new Padding(5, 0, 5, 0);
+            LblHour.Name = "LblHour";
+            LblHour.Size = new Size(151, 40);
+            LblHour.TabIndex = 2;
+            LblHour.Text = "Stunden";
             // 
             // LblMinute
             // 
-            this.LblMinute.AutoSize = true;
-            this.LblMinute.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMinute.Location = new System.Drawing.Point(548, 79);
-            this.LblMinute.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.LblMinute.Name = "LblMinute";
-            this.LblMinute.Size = new System.Drawing.Size(195, 55);
-            this.LblMinute.TabIndex = 3;
-            this.LblMinute.Text = "Minuten";
+            LblMinute.AutoSize = true;
+            LblMinute.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            LblMinute.Location = new Point(457, 79);
+            LblMinute.Margin = new Padding(5, 0, 5, 0);
+            LblMinute.Name = "LblMinute";
+            LblMinute.Size = new Size(145, 40);
+            LblMinute.TabIndex = 3;
+            LblMinute.Text = "Minuten";
             // 
             // CmdTick
             // 
-            this.CmdTick.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdTick.Location = new System.Drawing.Point(56, 392);
-            this.CmdTick.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.CmdTick.Name = "CmdTick";
-            this.CmdTick.Size = new System.Drawing.Size(872, 140);
-            this.CmdTick.TabIndex = 4;
-            this.CmdTick.Text = "Schalten";
-            this.CmdTick.UseVisualStyleBackColor = true;
-            this.CmdTick.Click += new System.EventHandler(this.CmdTick_Click);
+            CmdTick.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            CmdTick.Location = new Point(47, 392);
+            CmdTick.Margin = new Padding(5, 6, 5, 6);
+            CmdTick.Name = "CmdTick";
+            CmdTick.Size = new Size(727, 140);
+            CmdTick.TabIndex = 4;
+            CmdTick.Text = "Schalten";
+            CmdTick.UseVisualStyleBackColor = true;
+            CmdTick.Click += CmdTick_Click;
             // 
             // CmdStartTimer
             // 
-            this.CmdStartTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmdStartTimer.Location = new System.Drawing.Point(56, 598);
-            this.CmdStartTimer.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.CmdStartTimer.Name = "CmdStartTimer";
-            this.CmdStartTimer.Size = new System.Drawing.Size(872, 140);
-            this.CmdStartTimer.TabIndex = 5;
-            this.CmdStartTimer.Text = "Starte Automatik";
-            this.CmdStartTimer.UseVisualStyleBackColor = true;
-            this.CmdStartTimer.Click += new System.EventHandler(this.CmdStartTimer_Click);
+            CmdStartTimer.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            CmdStartTimer.Location = new Point(47, 598);
+            CmdStartTimer.Margin = new Padding(5, 6, 5, 6);
+            CmdStartTimer.Name = "CmdStartTimer";
+            CmdStartTimer.Size = new Size(727, 140);
+            CmdStartTimer.TabIndex = 5;
+            CmdStartTimer.Text = "Starte Automatik";
+            CmdStartTimer.UseVisualStyleBackColor = true;
+            CmdStartTimer.Click += CmdStartTimer_Click;
             // 
             // TmrTick
             // 
-            this.TmrTick.Interval = 1000;
-            this.TmrTick.Tick += new System.EventHandler(this.CmdTick_Click);
+            TmrTick.Interval = 1000;
+            TmrTick.Tick += CmdTick_Click;
             // 
             // LblSeparator
             // 
-            this.LblSeparator.AutoSize = true;
-            this.LblSeparator.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSeparator.Location = new System.Drawing.Point(474, 190);
-            this.LblSeparator.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.LblSeparator.Name = "LblSeparator";
-            this.LblSeparator.Size = new System.Drawing.Size(37, 55);
-            this.LblSeparator.TabIndex = 6;
-            this.LblSeparator.Text = ":";
+            LblSeparator.AutoSize = true;
+            LblSeparator.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            LblSeparator.Location = new Point(395, 190);
+            LblSeparator.Margin = new Padding(5, 0, 5, 0);
+            LblSeparator.Name = "LblSeparator";
+            LblSeparator.Size = new Size(27, 40);
+            LblSeparator.TabIndex = 6;
+            LblSeparator.Text = ":";
             // 
-            // Form1
+            // Uhr1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 853);
-            this.Controls.Add(this.LblSeparator);
-            this.Controls.Add(this.CmdStartTimer);
-            this.Controls.Add(this.CmdTick);
-            this.Controls.Add(this.LblMinute);
-            this.Controls.Add(this.LblHour);
-            this.Controls.Add(this.TxtMinute);
-            this.Controls.Add(this.TxtHour);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "Form1";
-            this.Text = "Aufgabe_A12-A1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(979, 853);
+            Controls.Add(LblSeparator);
+            Controls.Add(CmdStartTimer);
+            Controls.Add(CmdTick);
+            Controls.Add(LblMinute);
+            Controls.Add(LblHour);
+            Controls.Add(TxtMinute);
+            Controls.Add(TxtHour);
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "Uhr1";
+            Text = "Aufgabe_A12-A1";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
